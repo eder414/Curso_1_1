@@ -207,4 +207,40 @@ public class MainActivity extends AppCompatActivity {
         System.out.println(profesor.edadEndias());
 
     }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        Toast.makeText(MainActivity.this, "Start", Toast.LENGTH_LONG).show();
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        Toast.makeText(MainActivity.this, "Resumen", Toast.LENGTH_LONG).show();
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        Toast.makeText(MainActivity.this, "Pausa", Toast.LENGTH_LONG).show();
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        Toast.makeText(MainActivity.this, "Stop", Toast.LENGTH_LONG).show();
+    }
+
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+        Toast.makeText(MainActivity.this, "Re-Start", Toast.LENGTH_LONG).show();
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        Toast.makeText(MainActivity.this, "Destroy", Toast.LENGTH_LONG).show();
+    }
 }
