@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Intents.SegundoActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/etiquetaPrincipal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".33"
+        android:textSize="20pt"
+        android:textAlignment="center"
+        android:text="Segundo Activity"
+        />
+
+    <TextView
+        android:id="@+id/textViewNombre"
+
+        android:textSize="15pt"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".33"
+        android:textAlignment="center"
+></TextView>
+
+    <TextView
+        android:id="@+id/textViewPassword"
+        android:textSize="15pt"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".34"
+        android:textAlignment="center"/>
+
+</LinearLayout>
